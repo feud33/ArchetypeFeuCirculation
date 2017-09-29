@@ -32,7 +32,7 @@ void setup() {
 	scheduler.addService(servicePedestrianLight, "PL");
 	scheduler.addService(servicePedestrianCall);
 
-	delay(10000);
+	delay(1000);
 }
 
 void loop() {
